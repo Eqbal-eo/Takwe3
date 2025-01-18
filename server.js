@@ -9,7 +9,7 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
 // ربط قاعدة البيانات
-mongoose.connect('mongodb+srv://ikbal123:<6313381>@cluster0.buscx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://ikbal123:<6313381a>@cluster0.buscx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
 });
 
 const makoaaSchema = new mongoose.Schema({
